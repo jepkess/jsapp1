@@ -1,0 +1,20 @@
+#navbarNav ul li a{
+    color: rgb(4, 173, 89);
+    display: flex;
+    justify-content: end;
+    
+}
+.top{
+    background-image: url(../images/jshome.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height:60vh;
+    /* border-bottom: 2px solid navy; */
+    align-items: center;
+    justify-content: center;
+
+}
+.workpage{
+    height:70vh;
+}
