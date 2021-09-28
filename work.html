@@ -5,19 +5,20 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"
+        integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
         integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"
         integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous">
     </script>
-    <script src="https://code.jquery.com/jquery-3.6.0.min.js"
-        integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+
     <link rel="stylesheet" type="text/css" href="css/styles.css">
     <title>js coder</title>
 </head>
 
-<body>
-    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+<body onload="getname()">
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark navbar-fixed-top ">
         <a class="navbar-brand" href="#">Jsapp</a>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
             aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
@@ -41,10 +42,50 @@
         </div>
     </nav>
     <div class="container-fluid bg-secondary workpage">
-        
+        <h1>welcome, <span id="username"></span></h1>
         <h2 class="text-center text-white">See my work here</h2>
+        <p class="text-white text-center">Register Here</p>
+        <div class="row">
+            <div class="col-md-6 offset-md-3 text-white bg-dark card card-body ">
+                <form class="f1">
 
+                    Firstname: <input type="text" class="form-control" placeholder="Enter first name">
+                    Lastname: <input type="text" class="form-control" placeholder="Enter your last name">
+                    Email: <input type="email" class="form-control" placeholder="Enter your email">
+                    password: <input type="password" class="form-control" placeholder="Enter your password">
+                    phonenumber: <input type="number" class="form-control" placeholder="Enter your phone number">
+                    <p>Choose your gender</p>
+                    <input type="radio" id="male" name="fav_language" value="Male">
+                    <label for="male">Male</label><br>
+                    <input type="radio" id="female" name="fav_language" value="Female">
+                    <label for="female">Female</label><br>
+                    <p>select your languages learned</p>
+                    <input type="checkbox" id="html" name="html" value="HTML">
+                    <label for="html">HTML</label>
+                    <input type="checkbox" id="css" name="css" value="CSS">
+                    <label for="html">CSS</label>
+                    <input type="checkbox" id="javascript" name="javascript" value="JavaScript">
+                    <label for="javascript">JavaScript</label>
+                    <input type="checkbox" id="PHP" name="Php" value="php">
+                    <label for="PHP">PHP</label><br>
+                    <label for="countries">choose your country</label>
+                    <select name="country" id="countries">
+                        <option value="kenya">kenya</option>
+                        <option value="Uganda">Uganda</option>
+                        <option value="Tanzania">Tanzania</option>
+                        <option value="Somalia">Somalia</option>
+                        <option value="Ethiopia">Ethiopia</option>
+                        <option value="Sudan">Sudan</option>
+                        <option value="Eritrea">Eritrea</option>
+                    </select><br>
+                    <input type="submit" value="submit">
+
+
+                </form>
+            </div>
+        </div>
     </div>
+
 
 </body>
 
