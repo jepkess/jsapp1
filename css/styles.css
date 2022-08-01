@@ -1,5 +1,5 @@
 #navbarNav ul li a{
-    color: rgb(4, 173, 89);
+    color: rgb(173, 80, 4);
     display: flex;
     justify-content: end;
     
@@ -18,12 +18,8 @@
 .workpage{
     height:120vh;
 }
-/* .navbar{
+nav {
     position: fixed;
-    width:100%;
-    /* top: 0; */
-/* }
-.f1{
-    position: relative;
-    z-index: 1;
-} */ 
+
+
+}
