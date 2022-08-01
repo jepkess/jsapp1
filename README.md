@@ -6,7 +6,7 @@ JavaScript is one of the world’s most popular and widespread programming langu
 It was an an excitement during my first class of javascript at Moringa school.This project entailed all the Javascript skills learned at moringa school.
 
 ## Author
-VINCENT KIPKIRUI
+VINCENT KIPKIRUI -
 Junior web designer.
 
 
@@ -32,8 +32,8 @@ Junior web designer.
 
 
  ## contact information.
- Tel:254726371292 , 02021473424
- Email: biivincent1997@gmail.com
+ 1. Tel:254726371292 , 02021473424
+ 2. Email: biivincent1997@gmail.com
  
 
  ## licence
