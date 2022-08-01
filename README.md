@@ -1,17 +1,19 @@
 ## project name
-Delani-studio
+JSAPP1
 
 ## project Description
-This project is a web application for Delani studio that shows details about the services it offers, has information about the studio, a portfolio section and a form that enables users to send their messages and concern to Delani studios.
+JavaScript is one of the world’s most popular and widespread programming languages.
+It was an an excitement during my first class of javascript at Moringa school.This project entailed all the Javascript skills learned at moringa school.
 
 ## Author
-VINCENT KIPKIRUI-WEB DEVELOPER.
+VINCENT KIPKIRUI
+Junior web designer.
 
 
 ## setup.
 1. git init - initialised the new repo.
 2. git clone https://github.com/jepkess/jsapp1.git
-3. cd Delani studio.
+3. cd JSAPP1 
 4. code . (text editor).
 
 
@@ -25,7 +27,7 @@ VINCENT KIPKIRUI-WEB DEVELOPER.
 ## BDD
 
  ## live Demo 
- [live](https://jepkess.github.io/Delani-studio/)
+ [live]
 
 
 
