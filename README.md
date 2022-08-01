@@ -32,6 +32,9 @@ Junior web designer.
 
 
  ## contact information.
+ Tel:254726371292 , 02021473424
+ Email: biivincent1997@gmail.com
+ 
 
  ## licence
  This project is under [MIT](LICENSE.md)
